@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* index page */
+
+section{
+	padding: 20px;
+}
+/* Navigation Bar */
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+a{
+	text-decoration: none;
+	color: darkgray;
+}
+/* 1st block of content on index.html */
+h1{
+	font-size: 72px;
+	text-align: center;
+}
+.main-focus{
+	display: flex;
+    justify-content: space-around;
+}
+.main-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+.button{
+	height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* second block of content on index.html */
+.top-content{
+	display: flex;
+}
+.image{
+	display: flex;
+	justify-content: center;
+}
+.bottom-content{
+	display: flex;
+}
+/* footer */
+footer{
+	display: flex;
+    flex-direction: column;
+}
+h4{
+	margin-left: 20px;
+}
+.contact{
+	margin-left: 20px;
+}
+.copyright{
+	text-align: center;
+	margin: 75px;
+}
+
+/* services page */
+.middle-boxes{
+	border: 1px solid black;
+	padding: 10px;
+	margin: 30px;
+	background: lightgray;
+	height: 200px;
+	width: 450px;
+	/* display: flex; */
+	flex-direction: row;
+	justify-content: space-ar;
+
+}
+h2{
+	font-size: 25px;
+}
+.column-one{
+	display: flex;
+	flex-direction: column;
+}
+.column-two{
+	display: flex;
+	flex-direction: column;
+}
+p{
+	border: 1px solid black;
+	background: whitesmoke;
+	text-align:	center;
+	margin: 25px 0px;
+	padding: 10px;
+	width: 150px;
+} 
+.row{
+	padding: 10px;
+	/* width: 470px; */
+	display: flex;
+    flex-flow: wrap;
+}
+.service-page{
+	width: 1015px;
+}
+.facts{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 40px;
+	padding: 10px;
+    height: 200px;
+    width: 450px;
+}
+li {
+	display: list-item;
+	list-style-type: disc;
+	padding: 5px;
+  }
+  .third-section{
+	  display: flex;
+	  flex-direction: row;
+  }
+  ul{
+	  padding: 20px;
+  }
+  .services-info-img{
+	padding-left: 90px;
+  }
+.Copyright{
+	text-align: center;
+    margin-top: 200px;
+}
